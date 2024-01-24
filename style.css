@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 600px 1fr;
     grid-template-rows: 1fr 1fr;
-    box-shadow: 0px 5px 10px rgba(0,0,0,.20);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
     padding-bottom: 5px;
     padding-left: 30px;
 }
@@ -100,7 +100,6 @@ button:hover{
     display: grid;
     grid-row: 1/6;
     background-color: #84cc16;
-    height: 100vh;
 }
 .logo-icon{
     display: grid;
@@ -131,7 +130,7 @@ button:hover{
     grid-template-columns: 1fr 300px;
     grid-row: 2/6;
     padding-top: 20px;
-    background-color: #E9E9E4;
+    background-color: rgb(241, 241, 241);
 }
 .content1{
     display: grid;
@@ -147,7 +146,6 @@ h3{
 .box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
     box-shadow: 0px 5px 10px rgba(0,0,0,.20);
     padding: 20px;
-    border-radius: 10px;
     background-color: white;
 }
 .b{
@@ -183,6 +181,9 @@ h3{
     width: 10px;
     height: 10px;
 }
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6{
+    border-radius: 10px;
+}
 .div-2{
     display: grid;
     grid-template-rows: 250px 243px;
@@ -194,10 +195,12 @@ h3{
    box-shadow: 0px 5px 10px rgba(0,0,0,.20);
    border-radius: 10px;
    padding: 10px;
-   background-color: #000;
+   background-color: white;
 }
+
 .content2, .content3{
     padding: 5px 10px;
+    
 }
 .content2{
     height: 100px;
