@@ -100,6 +100,7 @@ button:hover{
     display: grid;
     grid-row: 1/6;
     background-color: #84cc16;
+    height: 100vh;
 }
 .logo-icon{
     display: grid;
