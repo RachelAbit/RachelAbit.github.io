@@ -131,6 +131,7 @@ button:hover{
     grid-template-columns: 1fr 300px;
     grid-row: 2/6;
     padding-top: 20px;
+    background-color: #E9E9E4;
 }
 .content1{
     display: grid;
