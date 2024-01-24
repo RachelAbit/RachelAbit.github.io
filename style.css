@@ -195,6 +195,7 @@ h3{
    box-shadow: 0px 5px 10px rgba(0,0,0,.20);
    border-radius: 10px;
    padding: 10px;
+   background-color: #000;
 }
 
 .content2, .content3{
