@@ -131,6 +131,7 @@ button:hover{
     grid-row: 2/6;
     padding-top: 20px;
     background-color: rgb(241, 241, 241);
+    height: 100vh;
 }
 .content1{
     display: grid;
